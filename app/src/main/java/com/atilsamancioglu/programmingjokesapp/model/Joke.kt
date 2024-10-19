@@ -3,7 +3,7 @@ package com.atilsamancioglu.programmingjokesapp.model
 data class Joke (
     val error: Boolean,
     val category: Category,
-    val type: Type,
+    val type: String?,
     val setup: String? = null,
     val delivery: String? = null,
     val flags: Flags,
